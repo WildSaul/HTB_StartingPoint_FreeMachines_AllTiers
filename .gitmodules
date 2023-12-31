@@ -1,3 +1,11 @@
 [submodule "HTB-starting-point-tier0"]
 path = HTB_tier0
 url = https://github.com/WildSaul/HTB-starting-point-tier0
+
+[submodule "HTB-starting-point-tier1"]
+path = HTB_tier1
+url = https://github.com/WildSaul/HTB-starting-point-tier1
+
+[submodule "HTB-starting-point-tier2"]
+path = HTB_tier2
+url = https://github.com/WildSaul/HTB-starting-point-tier2
