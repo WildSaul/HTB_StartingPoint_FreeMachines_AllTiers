@@ -1,6 +1,6 @@
 > Lab này tập trung vào Lỗ hổng File Inclusion trên trang web được hosted trên Windows machine can be exploited để thu nhập *NetNTLMv2 challege* của người dùng đang chạy web server với một công cụ là **Responder** để thu thập NetNTLMv2 hash và sau đó sử dụng **john the ripper** để giải mã mã băm.
 
-######: File Inclusion: một lỗ hổng cho phép tin tặc truy cập trái phép vào những tập tin nhạy cảm trên máy web hoặc thực thi các tệp tin nhạy cảm trên máy chủ web hoặc thực thi các tệp tin độc hại bằng cách sử dụng chức năng "include". Lỗ hổng này xảy ra do cơ chế kiểm tra đầu vào không được thực hiện tốt, khiến tin tặc có thể khai khác và chèn dự liệu độc hại.
+###### File Inclusion: một lỗ hổng cho phép tin tặc truy cập trái phép vào những tập tin nhạy cảm trên máy web hoặc thực thi các tệp tin nhạy cảm trên máy chủ web hoặc thực thi các tệp tin độc hại bằng cách sử dụng chức năng "include". Lỗ hổng này xảy ra do cơ chế kiểm tra đầu vào không được thực hiện tốt, khiến tin tặc có thể khai khác và chèn dự liệu độc hại.
 ### 1. Tìm kiếm thông tin
 ###### IP: 10.129.95.234
 ##### + Kiểm tra kết nối:
